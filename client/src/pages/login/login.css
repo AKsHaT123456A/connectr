@@ -1,0 +1,128 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginWrapper {
+  width: 70%;
+  height: 70%;
+  display: flex;
+}
+
+.loginLeft,
+.loginRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loginLogo {
+  font-size: 50px;
+  font-weight: 800;
+  color: #1775ee;
+  margin-bottom: 10px;
+}
+
+.loginDesc {
+  font-size: 24px;
+}
+
+.loginBox{
+    height: 300px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.loginInput{
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.loginInput:focus{
+    outline: none;
+}
+
+.loginButton{
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1775ee;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.loginButton:hover{
+  background-color: #0954b6;
+}
+.loginButton:disabled{
+  cursor: not-allowed;
+}
+.loginForgot{
+    text-align: center;
+    color: #1775ee;
+}
+
+.loginRegisterButtonn{
+    width: 60%;
+    align-self: center;
+    /* height: 50px; */
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: #42b72a;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginRegisterButtonn:disabled{
+  display: none;
+}
+
+.loginRegisterButtonn:hover{
+  color: #1e8509;
+}
+
+@media screen and (max-width:480px) {
+  .loginWrapper{
+    flex-direction: column;
+  }
+  .loginLogo{
+    display: flex;
+    margin-top: -70px;
+    align-items: center;
+    justify-content: center;
+  }
+  .loginDesc{
+    font-size: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .loginRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .loginWrapper {
+    width: 90%;
+    height: 90%;
+    display: flex;
+  }
+}
