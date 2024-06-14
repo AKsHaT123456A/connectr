@@ -1,4 +1,4 @@
-# Social Media Website Readme
+# Social Media Website
 
 Welcome to the Social Media Website! This readme file provides an overview of the features, setup instructions, and important information related to the website.
 
